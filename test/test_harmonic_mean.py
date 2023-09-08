@@ -4,8 +4,11 @@ import pytest
 from termcolor import colored
 
 import imppkg
-from imppkg import harmonic_mean
-from imppkg.harmony import main
+from imppkg import hello
+
+hello()
+# from imppkg import harmonic_mean
+# from imppkg.harmony import main
 
 # @pytest.mark.parametrize(
 #     "inputs, expected",
