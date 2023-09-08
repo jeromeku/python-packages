@@ -23,6 +23,7 @@ jobs:
     - name: Run tests
       run: |
         python -c "import imppkg; from imppkg import harmonic_mean; print(harmonic_mean.harmonic_mean([1, 2, 3]))"
+        python -m pytest -sv
 # name: CI Tutorial
 
 # on:
